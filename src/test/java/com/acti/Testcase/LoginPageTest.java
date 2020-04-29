@@ -40,6 +40,7 @@ public class LoginPageTest extends DriverScript{
 	public void testverifyActiLogo()
 	{
 		
+		System.out.println("calling testverifyActiLogo ");
 		Boolean flag = lp.verifyActiLogo();
 		Assert.assertTrue(flag);
 	}

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import com.acti.Base.DriverScript;
 /*
  * script: Loginpage
@@ -33,7 +34,9 @@ public class Loginpage extends DriverScript {
 	{
 		usernametb.sendKeys(username);
 		passwordtb.sendKeys(password);
+		
 		loginbutton.click();
+		
 	}
 	public String verifyLoginpageTitle()
 	{

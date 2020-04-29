@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9872" started-at="2020-04-28T20:21:19Z" finished-at="2020-04-28T20:21:29Z">
+  <suite name="Default suite" duration-ms="13794" started-at="2020-04-29T01:22:03Z" finished-at="2020-04-29T01:22:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9872" started-at="2020-04-28T20:21:19Z" finished-at="2020-04-28T20:21:29Z">
-      <class name="com.acti.Base.DriverScript">
-        <test-method status="PASS" signature="initApp()[pri:0, instance:com.acti.Base.DriverScript@77caeb3e]" name="initApp" duration-ms="9842" started-at="2020-04-28T15:21:19Z" finished-at="2020-04-28T15:21:29Z">
+    <test name="Default test" duration-ms="13794" started-at="2020-04-29T01:22:03Z" finished-at="2020-04-29T01:22:17Z">
+      <class name="com.acti.Testcase.LoginPageTest">
+        <test-method status="PASS" signature="preTest()[pri:0, instance:com.acti.Testcase.LoginPageTest@5622fdf]" name="preTest" is-config="true" duration-ms="13312" started-at="2020-04-28T20:22:03Z" finished-at="2020-04-28T20:22:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initApp -->
-      </class> <!-- com.acti.Base.DriverScript -->
+        </test-method> <!-- preTest -->
+        <test-method status="PASS" signature="testvalidateLoginFunction1()[pri:4, instance:com.acti.Testcase.LoginPageTest@5622fdf]" name="testvalidateLoginFunction1" duration-ms="451" started-at="2020-04-28T20:22:16Z" finished-at="2020-04-28T20:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testvalidateLoginFunction1 -->
+      </class> <!-- com.acti.Testcase.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
