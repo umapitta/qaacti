@@ -20,7 +20,7 @@ public class LoginPageTest extends BaseTest{
 	{
 		
 		System.out.println("calling testverifyActiLogo ");
-		Boolean flag = lp.verifyActiLogo();
+		boolean flag = lp.verifyActiLogo();
 		Assert.assertTrue(flag);
 	}
     @Test(priority=2)
@@ -34,10 +34,11 @@ public class LoginPageTest extends BaseTest{
 	public void testvalidateLoginFunction()
 	{
 	
-			lp.validateLogin("admin","manager");
+		//	lp.validateLogin("admin","manager");
+			lp.validateLogin(prop.getProperty("username"),prop.getProperty("password"));
 		
 		}
-	@Test(priority=4)
+//	@Test(priority=4)
 	public void testvalidateLoginFunction1()
 	{
 		lp.validateLogin(prop.getProperty("username"),prop.getProperty("password"));
